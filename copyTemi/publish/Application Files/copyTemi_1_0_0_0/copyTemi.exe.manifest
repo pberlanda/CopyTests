@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="copyTemi.exe" version="1.0.0.0" publicKeyToken="34a3fc64bfc6fc33" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="copyTemi" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="copyTemi.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- Opzioni manifesto Controllo account utente
+            Se si desidera modificare il livello di Controllo account utente di Windows, sostituire il 
+            nodo requestedExecutionLevel con uno dei seguenti.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Se si specifica il nodo requestedExecutionLevel, la virtualizzazione dei file system e del Registro di sistema verrà disabilitata.
+            Se si desidera utilizzare la virtualizzazione dei file e del Registro di sistema per la 
+            compatibilità con le versioni precedenti, eliminare il nodo requestedExecutionLevel.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="copyTemi.exe" size="19968">
+      <assemblyIdentity name="copyTemi" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>Dtq47blC1bq5M7JAh/Kwo3B1zjo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- Elenco di tutte le versioni di Windows con cui è possibile utilizzare l'applicazione. L'ambiente maggiormente compatibile verrà scelto automaticamente.-->
+      <!-- Se l'applicazione è progettata per l'uso con Windows 7, rimuovere il commento dal seguente nodo supportedOS-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=FLORIANI\paolo.berlanda" issuerKeyHash="9bddee0d28da08b33611920e10e9abf5bfedea67" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>5t3PN4oY9v+3mJQGMtvJhf/936o=</DigestValue></Reference></SignedInfo><SignatureValue>lLkY4MdmFtb21fUe3Yfu5GeDhYnWJAizQmXoySi9RdH1L2zYbP/OjUH2KF3p7m9oDpE0y/y5tJiwpD0I1f7i7c7i4qdomAiUR/ea6u2bGIQkN/F5WwHm/RB/NBy3TRfIcqz/eHkhnv2TelVEHNhbKPBLm8BeCoYjM2khVcI91SM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>4exaxji2GH5DI2bcq0ytjAfJy14EvIeEMaJUZ3xCYO6hmvvVdrWvQBBl4n8ocdjr3mdPZ8MwFgLwOfMqG9XW16ux8pojGsoz4PO5ACmXDy9aHItayQ37IQJNJhYPchymoX5CUR32PWDFwFsPKZXng5bLT4MJoaNm50eW1WYA2Ek=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="aadffdff85c9db32069498b7fff6188a37cfdde6" Description="" Url=""><as:assemblyIdentity name="copyTemi.exe" version="1.0.0.0" publicKeyToken="34a3fc64bfc6fc33" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=FLORIANI\paolo.berlanda</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>lkbjjAs9hNLchLVV8dkGJd1P93c=</DigestValue></Reference></SignedInfo><SignatureValue>ZR2OEUQsnC6+Mk5QLRvxzvBXbOT94xgAMIh/Hi3WX4aBD8kQTQoJoRTbBg38tBrNgU9A7HNc+wh/Zos629xZpm+qeW4uITDIJzmHrECX1yXgWN9niHmDsZ2O6Kk+x6AdLlLrkwEoxjUT/AZC1tmhROAMpTkNc7sOM83PcUVicWg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>4exaxji2GH5DI2bcq0ytjAfJy14EvIeEMaJUZ3xCYO6hmvvVdrWvQBBl4n8ocdjr3mdPZ8MwFgLwOfMqG9XW16ux8pojGsoz4PO5ACmXDy9aHItayQ37IQJNJhYPchymoX5CUR32PWDFwFsPKZXng5bLT4MJoaNm50eW1WYA2Ek=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB9TCCAV6gAwIBAgIQb6Xqe1PX+4ZERVuhljgAODANBgkqhkiG9w0BAQUFADA5MTcwNQYDVQQDHi4ARgBMAE8AUgBJAEEATgBJAFwAcABhAG8AbABvAC4AYgBlAHIAbABhAG4AZABhMB4XDTE1MTAyMjA3NDkzMFoXDTE2MTAyMTEzNDkzMFowOTE3MDUGA1UEAx4uAEYATABPAFIASQBBAE4ASQBcAHAAYQBvAGwAbwAuAGIAZQByAGwAYQBuAGQAYTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA4exaxji2GH5DI2bcq0ytjAfJy14EvIeEMaJUZ3xCYO6hmvvVdrWvQBBl4n8ocdjr3mdPZ8MwFgLwOfMqG9XW16ux8pojGsoz4PO5ACmXDy9aHItayQ37IQJNJhYPchymoX5CUR32PWDFwFsPKZXng5bLT4MJoaNm50eW1WYA2EkCAwEAATANBgkqhkiG9w0BAQUFAAOBgQCp6qbhJkb3TqlThRO1K0BcU0MrAdFkJHS9n/NaT30zQ7EvAEuPqrUcVQm6LNm5YTdXzQioLJ4D899Cl4geEOpzcia9Bteinvjl1kR5VTzJ3A4QRaCZwEyqzmWbqSoaKg4Alfsz8e3baAzeyqWqArq7e0UTasGkRPNGs8c8SYJtWw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

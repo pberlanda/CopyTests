@@ -1,0 +1,14 @@
+O:\copy temi\copyTemi\bin\Debug\copyTemi.exe
+O:\copy temi\copyTemi\bin\Debug\copyTemi.pdb
+O:\copy temi\copyTemi\bin\Debug\copyTemi.xml
+O:\copy temi\copyTemi\obj\x86\Debug\WindowsApplication1.Form1.resources
+O:\copy temi\copyTemi\obj\x86\Debug\WindowsApplication1.Resources.resources
+O:\copy temi\copyTemi\obj\x86\Debug\copyTemi.vbproj.GenerateResource.Cache
+O:\copy temi\copyTemi\obj\x86\Debug\copyTemi.exe
+O:\copy temi\copyTemi\obj\x86\Debug\copyTemi.xml
+O:\copy temi\copyTemi\obj\x86\Debug\copyTemi.pdb
+O:\copy temi\copyTemi\bin\Debug\copyTemi.exe.manifest
+O:\copy temi\copyTemi\bin\Debug\copyTemi.application
+O:\copy temi\copyTemi\obj\x86\Debug\copyTemi.TrustInfo.xml
+O:\copy temi\copyTemi\obj\x86\Debug\copyTemi.exe.manifest
+O:\copy temi\copyTemi\obj\x86\Debug\copyTemi.application
